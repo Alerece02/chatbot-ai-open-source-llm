@@ -1,0 +1,157 @@
+{
+  "strutture": [
+    {
+      "nome": "Ospedale di Malcesine",
+      "città": "Malcesine",
+      "indirizzo": "Via Gardesana 57",
+      "servizi": ["pronto soccorso", "Recupero e Riabilitazione", "Radiologia", "Punto Prelievi"],
+      "telefono": "045 6589311",
+      "orari": "Lun–Ven 7:00-14:00 e Sab 14:00-18:00 e Dom 11:00-12:00",
+      "orari_dettaglio": {
+        "punto_prelievi": "Lun-Ven 7:00-9:00",
+        "radiologia": "Lun-Ven 8:00-16:00"
+      },
+      "link_mappa": "https://maps.app.goo.gl/QEnNRzSF4ZZ48we16",
+      "pagina_web": "https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=171",
+      "accessibilita": {
+        "parcheggio_disabili": true,
+        "ascensore": true,
+        "percorso_tattile": false
+      }
+    },
+    {
+      "nome": "Ospedale Marzana",
+      "città": "Marzana",
+      "indirizzo": "Piazza Lambranzi, 1",
+      "servizi": ["Breast Unit", "Farmacia", "Medicina fisica e riabilitazione", "Radiologia"],
+      "telefono": "045 807 5111",
+      "orari": "Lun–Ven 7:30-16:00",
+      "orari_dettaglio": {
+        "farmacia": "Lun-Ven 8:00-19:00, Sab 8:00-13:00",
+        "radiologia": "Lun-Ven 8:00-17:00"
+      },
+      "link_mappa": "https://maps.app.goo.gl/4vHvDpcdoQjdm4c8A",
+      "pagina_web": "https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=306",
+      "accessibilita": {
+        "parcheggio_disabili": true,
+        "ascensore": true,
+        "percorso_tattile": true
+      }
+    },
+    {
+      "nome": "Ospedale di Bussolengo",
+      "città": "Bussolengo",
+      "indirizzo": "Via Ospedale 4/6",
+      "servizi": ["Anatomia e Istologia Patologica", "Breast Unit", "Cardiologia", "Chirurgia Generale", 
+                  "Farmacia Ospedaliera", "Fisiopatologia Respiratoria", "Gastroenterologia ed Endoscopia Digestiva", 
+                  "Geriatria", "Laboratorio Analisi", "Pronto Soccorso", "Radiologia", "Medicina Trasfusionale"],
+      "telefono": "045 670 5111",
+      "orari": "Lun–Sab 7:00-19:00 e Dom 7:00-12:30",
+      "orari_dettaglio": {
+        "pronto_soccorso": "24/7 - Sempre aperto",
+        "laboratorio_analisi": "Lun-Ven 7:00-10:00 per prelievi",
+        "cardiologia": "Lun-Ven 8:00-17:00"
+      },
+      "link_mappa": "https://maps.app.goo.gl/jV1nDTaTFqboWmuc8",
+      "pagina_web": "https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=125",
+      "accessibilita": {
+        "parcheggio_disabili": true,
+        "ascensore": true,
+        "percorso_tattile": true
+      }
+    },
+    {
+      "nome": "Poliambulatorio San Bonifacio",
+      "città": "San Bonifacio",
+      "indirizzo": "Via Fontanelle 20",
+      "servizi": ["Direzione Medica Ospedaliera", "Anestesia, rianimazione e terapia del dolore",
+                  "Anatomia e Istologia Patologica", "Attività Motoria"],
+      "telefono": "045 613 8111",
+      "orari": "Lun–Ven 7:00–21:00 Sab 7:00–19:00 Dom 16:00–19:00",
+      "orari_dettaglio": {
+        "attivita_motoria": "Lun-Ven 8:00-19:00",
+        "terapia_dolore": "Lun-Ven 9:00-16:00"
+      },
+      "link_mappa": "https://maps.app.goo.gl/giW1vFnUhrqrX5Jq7",
+      "pagina_web": "https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=192",
+      "accessibilita": {
+        "parcheggio_disabili": true,
+        "ascensore": true,
+        "percorso_tattile": false
+      }
+    },
+    {
+      "nome": "Ospedale Magalini di Villafranca",
+      "città": "Villafranca di Verona",
+      "indirizzo": "Via Ospedale 2",
+      "telefono": "045 633 8111",
+      "servizi": ["Direzione Medica Ospedaliera", "Poliambulatori", "Anestesia e Rianimazione",
+                  "Breast Unit", "Laboratorio di Analisi Chimico - Cliniche e Microbiologiche",
+                  "Radiologia", "Urologia"],
+      "orari": "Lun-Ven 7:00 - 17:00",
+      "orari_dettaglio": {
+        "laboratorio_analisi": "Lun-Ven 7:00-10:00 per prelievi",
+        "radiologia": "Lun-Ven 8:00-18:00",
+        "urologia": "Lun-Ven 8:00-16:00"
+      },
+      "link_mappa": "https://maps.app.goo.gl/xTVYbxyvVMe2iX5S6",
+      "pagina_web": "https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=178",
+      "accessibilita": {
+        "parcheggio_disabili": true,
+        "ascensore": true,
+        "percorso_tattile": true
+      }
+    },
+    {
+      "nome": "Ambulatorio di Bovolone",
+      "città": "Bovolone",
+      "indirizzo": "Piazza Alexander Fleming, 1",
+      "servizi": ["Breast Unit", "Poliambulatori", "Punto di Primo Intervento",
+                  "Radiologia", "Recupero e Riabilitazione Funzionale",
+                  "Ospedale di Comunità di Bovolone", "Ambulatorio Infermieristico Distrettuale"],
+      "telefono": "045 699 9311",
+      "orari": "Lun–Ven 7:30–16:00 Sab 7:00–12:00",
+      "orari_dettaglio": {
+        "punto_primo_intervento": "Lun-Sab 8:00-20:00",
+        "riabilitazione": "Lun-Ven 8:00-16:00"
+      },
+      "link_mappa": "https://maps.app.goo.gl/xJuWB9wC2sA3Ym5o6",
+      "pagina_web": "https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=190",
+      "accessibilita": {
+        "parcheggio_disabili": true,
+        "ascensore": true,
+        "percorso_tattile": false
+      }
+    }
+  ],
+  "faq": [
+    {
+      "domanda": "Come prenoto una visita?",
+      "risposta": "Puoi prenotare una visita chiamando il CUP (Centro Unico Prenotazioni) al numero verde 800 123 456, attivo dal lunedì al venerdì dalle 8:00 alle 18:00. È anche possibile prenotare online sul sito della ULSS9.",
+      "tags": ["prenotazione", "visita", "cup"]
+    },
+    {
+      "domanda": "Cosa devo portare per fare le analisi del sangue?",
+      "risposta": "Per le analisi del sangue serve: tessera sanitaria, impegnativa del medico (ricetta rossa o dematerializzata), documento d'identità. Si consiglia il digiuno da almeno 8 ore per gli esami che lo richiedono.",
+      "tags": ["analisi", "documenti", "prelievi"]
+    },
+    {
+      "domanda": "Come posso avere assistenza domiciliare?",
+      "risposta": "Per richiedere l'assistenza domiciliare, contatta il tuo medico di base che valuterà la situazione e attiverà il servizio ADI (Assistenza Domiciliare Integrata) se necessario.",
+      "tags": ["assistenza", "domiciliare", "adi"]
+    }
+  ],
+  "numeri_utili": {
+    "emergenza": "118",
+    "cup_prenotazioni": "800 123 456",
+    "guardia_medica": "045 807 5555",
+    "centralino_ulss9": "045 807 1111",
+    "servizi_sociali": "045 807 6666"
+  },
+  "info_generali": {
+    "nome_azienda": "ULSS 9 Scaligera",
+    "sede_legale": "Via Valverde 42, 37122 Verona",
+    "pec": "protocollo.aulss9@pecveneto.it",
+    "sito_web": "https://www.aulss9.veneto.it"
+  }
+}

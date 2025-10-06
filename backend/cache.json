@@ -1,0 +1,115 @@
+{
+  "cache": {
+    "f54dabb000434221eb8d05b07836fe6a": {
+      "question": "ciao",
+      "intent": "generale",
+      "data": {
+        "risposta": "Ciao! Benvenuto su ULSS9 assistente virtuale! Come posso aiutarti oggi?",
+        "struttura": null
+      },
+      "timestamp": "2025-09-24T21:24:56.079193",
+      "last_access": "2025-09-24T21:24:56.080334",
+      "access_count": 1
+    },
+    "1abb9edc9dcb88e722afe0a3302fb054": {
+      "question": "mi mandi il numero di telefono di bovolone?",
+      "intent": "contatti",
+      "data": {
+        "risposta": "Il numero del Centro Sanitario Ambulatorio a Bovolone è 045 699 9311. Se avete bisogno di ulteriori informazioni, potreste contattare il centralino ULSS9 al numero 045 807 1111. Il centro è aperto dalle 7:30 alle 16:00 del lunedì al venerdì e dalle 7:00 alle 12:00 il sabato.",
+        "struttura": "Centro Sanitario Ambulatorio a Bovolone è 045 699 9311"
+      },
+      "timestamp": "2025-09-24T21:25:38.324489",
+      "last_access": "2025-09-24T21:25:38.324525",
+      "access_count": 1
+    },
+    "b0db68bc3fc2bcda52cacf049577b374": {
+      "question": "mi mandi la mappa di bovolone?",
+      "intent": "generale",
+      "data": {
+        "risposta": "La mappa del Centro Sanitario Ambulatorio a Bovolone è disponibile cliccando qui: <https://maps.app.goo.gl/xJuWB9wC2sA3Ym5o6>. Se avete bisogno di ulteriori informazioni, potreste contattare il centralino ULSS9 al numero 045 807 1111.",
+        "struttura": "Centro Sanitario Ambulatorio a Bovolone è disponibile cliccando qui"
+      },
+      "timestamp": "2025-09-24T21:26:05.153174",
+      "last_access": "2025-09-24T21:26:05.153216",
+      "access_count": 1
+    },
+    "e1ade5c253a52a97173f563acdbc51be": {
+      "question": "Dove posso fare le analisi del sangue?",
+      "intent": "generale",
+      "data": {
+        "risposta": "Per le analisi del sangue serve: tessera sanitaria, impegnativa del medico (ricetta rossa o dematerializzata), documento d'identità. Si consiglia il digiuno da almeno 8 ore per gli esami che lo richiedono."
+      },
+      "timestamp": "2025-09-24T21:27:16.232271",
+      "last_access": "2025-09-24T21:27:16.232276",
+      "access_count": 1
+    },
+    "7e74f3f6f919971843318172f6f767d5": {
+      "question": "Quali documenti servono per la visita?",
+      "intent": "generale",
+      "data": {
+        "risposta": "Puoi prenotare una visita chiamando il CUP (Centro Unico Prenotazioni) al numero verde 800 123 456, attivo dal lunedì al venerdì dalle 8:00 alle 18:00. È anche possibile prenotare online sul sito della ULSS9."
+      },
+      "timestamp": "2025-09-24T21:27:26.956666",
+      "last_access": "2025-09-24T21:27:26.956669",
+      "access_count": 1
+    },
+    "5fbadba0382c2ab33ecdb9b993e7b2e1": {
+      "question": "Dove trovo il centro prelievi più vicino?",
+      "intent": "generale",
+      "data": {
+        "risposta": "Per le analisi del sangue serve: tessera sanitaria, impegnativa del medico (ricetta rossa o dematerializzata), documento d'identità. Si consiglia il digiuno da almeno 8 ore per gli esami che lo richiedono."
+      },
+      "timestamp": "2025-09-24T21:27:33.332887",
+      "last_access": "2025-09-24T21:27:33.332891",
+      "access_count": 1
+    },
+    "dc16fc887fded4e70914d677b65816a9": {
+      "question": "Come prenoto una visita?",
+      "intent": "prenotazione",
+      "data": {
+        "risposta": "Puoi prenotare una visita chiamando il CUP (Centro Unico Prenotazioni) al numero verde 800 123 456, attivo dal lunedì al venerdì dalle 8:00 alle 18:00. È anche possibile prenotare online sul sito della ULSS9."
+      },
+      "timestamp": "2025-09-24T21:27:45.755976",
+      "last_access": "2025-09-24T21:27:45.756023",
+      "access_count": 1
+    },
+    "78076a7b4596da417fc891a6c42a6f6d": {
+      "question": "Quali ospedali ci sono nella provincia?",
+      "intent": "generale",
+      "data": {
+        "risposta": "C'è un ospedale a Villafranca di Verona e uno a Malcesine nella provincia. Per informazioni dettagliate potete contattare il centralino ULSS9 al numero 045 807 1111.\nIl primo è l'Ospedale Magalini di Villafranca, aperto dalle 7:00 alle 17:00 del lunedì al venerdì, e offre servizi come pronto soccorso, direzione medica ospedaliera, poliambulatori, anestesia e rianimazione, breast unit, laboratorio di analisi chimico-cliniche e microbiologiche.\nIl secondo è l'Ospedale di Malcesine, aperto dalle 7:00 alle 14:00 del lunedì al venerdì, e dalle 14:00 alle 18:00 il sabato, e offre servizi come pronto soccorso, recupero e riabilitazione, radiologia e punto prelievi.",
+        "struttura": "ospedale a Villafranca di Verona e uno a Malcesine nella provincia"
+      },
+      "timestamp": "2025-09-24T21:27:49.183690",
+      "last_access": "2025-09-24T21:27:49.183885",
+      "access_count": 1
+    },
+    "84d2a2ae0d9bd1113cb4844e59b5915f": {
+      "question": "Quali sono gli orari del pronto soccorso?",
+      "intent": "generale",
+      "data": {
+        "risposta": "I giorni in cui il pronto soccorso è aperto sono tutti i giorni della settimana. L'orario è da ore 7:00 alle 23:00 per tutte le giornate tranne sabato e domenica, dove l'orario è dalle 14:00 alle 23:00.\n\nPer ulteriori informazioni, potreste contattare il centralino ULSS9 al numero 045 807 1111.",
+        "struttura": null
+      },
+      "timestamp": "2025-09-24T21:28:04.426108",
+      "last_access": "2025-09-24T21:28:04.426151",
+      "access_count": 1
+    },
+    "5f3ff8a79b54c0d3eff10ed16e4dfdb8": {
+      "question": "Dimmi gli orari di Bovolone",
+      "intent": "generale",
+      "data": {
+        "risposta": "Gli orari dell'Ambulatorio di Bovolone sono lunedì a venerdì dalle 7:30 alle 16:00 e sabato dalle 7:00 alle 12:00. Per ulteriori informazioni, potreste contattare il centralino ULSS9 al numero 045 807 1111.",
+        "struttura": "Ambulatorio di Bovolone sono lunedì a venerdì dalle 7"
+      },
+      "timestamp": "2025-09-24T21:29:13.920060",
+      "last_access": "2025-09-24T21:29:13.920107",
+      "access_count": 1
+    }
+  },
+  "stats": {
+    "hits": 0,
+    "misses": 10,
+    "evictions": 0
+  }
+}

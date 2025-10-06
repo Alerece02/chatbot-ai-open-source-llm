@@ -1,0 +1,30 @@
+# Ambiente virtuale
+.venv/
+venv/
+
+# File temporanei/macOS
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cache Python
+*.log
+*.sqlite3
+*.db
+*.cache
+*.bak
+
+# File di ollama (se presenti localmente)
+ollama.db
+ollama_models/
+
+# File temporanei di VS Code o editor
+.vscode/
+.idea/
+*.swp
+
+
+# File pip freeze di backup (facoltativo)
+requirements-before-clean.txt

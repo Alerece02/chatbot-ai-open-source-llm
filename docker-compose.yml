@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: ulss9_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./analytics:/app/analytics  # Volume per analytics
+    environment:
+      - PYTHONUNBUFFERED=1
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    depends_on:
+      - llama
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: ulss9_frontend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    restart: unless-stopped
+
+  llama:
+    image: ollama/ollama
+    container_name: ulss9_llama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    tty: true
+    restart: unless-stopped
+    # Aggiungi health check
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  ollama:
+  analytics:
