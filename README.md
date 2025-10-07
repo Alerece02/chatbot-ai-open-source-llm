@@ -2,7 +2,7 @@
 
 ## 📋 Descrizione Progetto
 
-Assistente virtuale basato su AI per facilitare l'accesso alle informazioni sanitarie, sviluppato come progetto di tesi universitaria per dimostrare le potenzialità dell'AI nell'accessibilità dei servizi sanitari.
+Assistente virtuale basato su AI per facilitare l'accesso alle informazioni.
 
 ### 🎯 Obiettivi
 - **Accessibilità**: Rendere le informazioni sanitarie facilmente accessibili, specialmente per anziani
@@ -45,7 +45,7 @@ docker-compose up --build
 ## 📁 Struttura Progetto
 
 ```
-ulss9-chatbot/
+chatbot/
 ├── backend/
 │   ├── main.py                 # Entry point FastAPI
 │   ├── routes/
